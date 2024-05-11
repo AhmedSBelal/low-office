@@ -346,6 +346,15 @@ header nav ul li a:hover {
     text-align: center;
 }
 
+.scale {
+    transform: scale(1.3); /* Adjust the scale factor as needed */
+    z-index: 100; /* Ensure it's above other content */
+  }
+  
+.blur {
+    filter: blur(5px); /* Adjust the blur intensity as needed */
+}
+
 /*   portfolio   */
 
 .portfolio {
@@ -517,10 +526,6 @@ header nav ul li a:hover {
     margin-top: 40px;
     margin-bottom: 20px;
     width: 100%;
-}
-
-.about .container .our-attorney .lawyer-box .text h2 {
-
 }
 
 .about .container .our-attorney .lawyer-box .text p {
@@ -922,3 +927,13 @@ footer .copyright span {
 
 
 
+/*  */
+
+
+/* .scale {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: calc( (100% - 600px) / 2 );
+    top: 10px;
+} */
